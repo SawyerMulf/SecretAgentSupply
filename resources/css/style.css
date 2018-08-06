@@ -151,3 +151,90 @@ nav {
   padding: 1rem 2rem;
   color: white;
 }
+
+  #menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header .container {
+    padding: 1rem 0;
+  }
+
+  .header span {
+    font-size: 1.25rem;
+  }
+
+  nav span {
+    display: none;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  #menu {
+    display: block;
+    text-align: center;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+  #watch, #pen {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .mainTextBox {
+    top: 21rem;
+    padding: 1rem 2rem;
+    width: 60%;
+  }
+
+  #mainTop {
+    font-size: .77rem;
+  }
+
+  #mainBottom {
+    font-size: 1rem;
+  }
+
+  #headerSpan {
+    display: none;
+  }
+
+  .header .container {
+    justify-content: center;
+    width: 60%;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  #pen {
+    width: 40%;
+    margin-left: 2.7%;
+  }
+
+  .info .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .location {
+    margin-bottom: 3%;
+  }
+
+  .location, .hours {
+    margin-left: 5%;
+  }
+
+  #footerText {
+    margin-left: 7.5%;
+  }
+
+}
